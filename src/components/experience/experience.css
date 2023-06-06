@@ -9,18 +9,20 @@
 	padding: 2.4rem 5rem;
 	border-radius: 2rem;
 	border: 1px solid transparent;
+	transition: var(--transition);
 }
 
 .experience__container > div:hover {
 	background: transparent;
-	border-color: var(--color-primary-variant);
+	border-color: var(--color-bg-variant);
+	transform: scale(1.1);
 	cursor: default;
 }
 
 .experience__container > div h3 {
 	text-align: center;
 	margin-bottom: 2rem;
-	color: var(--color-primary);
+	color: var(--color-white);
 }
 
 .experience__content {
@@ -36,7 +38,7 @@
 
 .experience__details-icon {
 	margin-top: 6px;
-	color: var(--color-primary);
+	color: var(--color-white);
 }
 
 /* ----------------------------- MEDIA QUERIES (MEDIUM DEVICES) ----------------------------- */

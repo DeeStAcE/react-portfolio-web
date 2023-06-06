@@ -11,7 +11,7 @@
 	background: linear-gradient(
 		45deg,
 		transparent,
-		var(--color-primary),
+		var(--color-bg-variant),
 		transparent
 	);
 	display: grid;
@@ -36,7 +36,7 @@
 }
 
 .about__card {
-	background: var(--color-bg-variant);
+	background: var(--color-primary);
 	border: 1px solid transparent;
 	border-radius: 1rem;
 	padding: 2rem;
@@ -46,12 +46,12 @@
 
 .about__card:hover {
 	background: transparent;
-	border-color: var(--color-primary-variant);
+	border-color: var(--color-primary);
 	cursor: default;
 }
 
 .about__icon {
-	color: var(--color-primary);
+	color: var(--color-white);
 	font-size: 1.4rem;
 	margin-bottom: 1rem;
 }
