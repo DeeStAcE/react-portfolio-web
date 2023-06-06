@@ -10,12 +10,6 @@
 	transition: var(--transition);
 }
 
-.service:hover {
-	box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
-	transform: scale(1.1);
-	cursor: default;
-}
-
 .service__head {
 	background: var(--color-bg-variant);
 	padding: 2rem;
