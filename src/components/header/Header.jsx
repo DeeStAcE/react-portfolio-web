@@ -8,6 +8,7 @@ const Header = () => {
 	return (
 		<header>
 			<div className='container header__container'>
+				<h5 className='text-light'>[web in progress]</h5>
 				<h5>Hello I'm</h5>
 				<h1>Dawid Firmowski</h1>
 				<h5 className='text-light'>Python Developer</h5>
@@ -15,7 +16,7 @@ const Header = () => {
 				<HeaderSocials />
 
 				<div className='me'>
-					<img src={ME} alt='me' />
+					<img src='' alt='me' />
 				</div>
 
 				<a href='#contact' className='scroll__down'>

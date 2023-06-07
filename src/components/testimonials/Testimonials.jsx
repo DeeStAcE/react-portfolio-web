@@ -13,21 +13,21 @@ import "swiper/css/pagination";
 
 const data = [
 	{
-		avatar: AVTR1,
+		avatar: "",
 		name: "name",
 		review:
 			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus et ratione a fugit, sequi libero quo quibusdam corrupti facilis quia!",
 	},
 
 	{
-		avatar: AVTR1,
+		avatar: "",
 		name: "name",
 		review:
 			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus et ratione a fugit, sequi libero quo quibusdam corrupti facilis quia!",
 	},
 
 	{
-		avatar: AVTR1,
+		avatar: "",
 		name: "name",
 		review:
 			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus et ratione a fugit, sequi libero quo quibusdam corrupti facilis quia!",
@@ -51,7 +51,7 @@ const Testimonials = () => {
 					return (
 						<SwiperSlide key={index} className='testimonial'>
 							<div className='client__avatar'>
-								<img src={avatar} />
+								<img src='' alt='avatar' />
 							</div>
 							<h5 className='client__name'>{name}</h5>
 							<small className='client__review'>{review}</small>

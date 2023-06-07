@@ -14,7 +14,7 @@ const About = () => {
 			<div className='container about__container'>
 				<div className='about__me'>
 					<div className='about__me-image'>
-						<img src={ME} alt='About Image' />
+						<img src='' alt='About Image' />
 					</div>
 				</div>
 
@@ -37,10 +37,13 @@ const About = () => {
 						</article>
 					</div> */}
 					<p>
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur et
-						iusto temporibus non ab tempora ipsum harum asperiores fuga, modi
-						beatae reprehenderit enim in quis sit quisquam vel. Praesentium,
-						quidem.
+						Open-minded and highly motivated developer with a strong passion for
+						continuous growth and a particular focus on expanding knowledge in
+						the IT field. Diligent and hardworking, consistently goes above and
+						beyond to achieve goals and exceed expectations. Possesses
+						exceptional interpersonal skills and a natural ability to
+						collaborate effectively with diverse teams, as well as excellent at
+						working independently.
 					</p>
 					<a href='#contact' className='btn btn-primary'>
 						Let's Talk
